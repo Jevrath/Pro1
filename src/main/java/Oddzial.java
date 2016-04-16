@@ -12,8 +12,8 @@ public class Oddzial {
 		}
 	}
 	public void wypisz() {
-		for(int i = 0; i < deliveryList.size(); i++) {
-			System.out.println(deliveryList.get(i));
+		for(Delivery a: deliveryList) {
+			System.out.println(a);
 		}
 	}
 	
