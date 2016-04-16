@@ -8,6 +8,6 @@ public class Klient {
 		this.name = name;
 	}
 	public void send(Oddzial od,String type,String adres) {
-		od.add_delivery(type, adres);
+		od.addDelivery(type, adres);
 	}
 }
