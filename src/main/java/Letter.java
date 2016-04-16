@@ -5,7 +5,7 @@ public class Letter implements Delivery{
 		this.adres = adres;
 	}
 	public String zwrocAdres() {
-		return null;
+		return adres;
 	}
 	public String toString() {
 		return "Adres listu: " + adres;

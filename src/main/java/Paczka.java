@@ -8,7 +8,7 @@ public class Paczka implements Delivery {
 	}
 	public String zwrocAdres() {
 		// TODO Auto-generated method stub
-		return null;
+		return adres;
 	}
 	public String toString() {
 		return "Adres paczki: " + adres;
