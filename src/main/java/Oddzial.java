@@ -11,9 +11,9 @@ public class Oddzial {
 		this.city = city;
 	}
 	
-	public void addDelivery(String type, String adres) {
+	public void addDelivery(String type, String adres, Klient name) {
 		Delivery tmp;
-		if((tmp = packer1.getDelivery(type, adres)) !=null ) {
+		if((tmp = packer1.getDelivery(type, adres, name)) !=null ) {
 			sortowniaList.add(tmp);
 		}
 	}

@@ -2,9 +2,10 @@
 public class Paczka implements Delivery {
 
 	String adres;
-	
-	Paczka(String adres) {
+	Klient odbiorca;
+	Paczka(String adres, Klient name) {
 		this.adres = adres;
+		odbiorca = name;
 	}
 	public String zwrocAdres() {
 		// TODO Auto-generated method stub
@@ -13,5 +14,7 @@ public class Paczka implements Delivery {
 	public String toString() {
 		return "Adres paczki: " + adres;
 	}
-	
+	public 	void powiadamiaj(String t){
+		odbiorca.update(t);
+	}
 }

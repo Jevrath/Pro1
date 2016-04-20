@@ -17,6 +17,7 @@ public class Klasa1 {
 		klient1.send(oddzial2, "Paczka", "Wroclaw");
 		klient1.send(oddzial2, "badtype", "Krakow");
 		klient1.send(oddzial2,  "paczka", "radom");
+		klient2.send(oddzial1, "Paczka", "Wieliczka");
 		oddzial1.sendToSort();
 		oddzial2.sendToSort();
 		sort1.wypisz();

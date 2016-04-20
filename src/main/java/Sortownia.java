@@ -14,6 +14,7 @@ public class Sortownia {
 	public void receiveDelivery(List<Delivery> delList) {
 		for(Delivery del : delList) {
 			deliveryList.add(del);
+			del.powiadamiaj("Paczka w sortowni");
 		}
 	}
 	public static Sortownia getSortownia(){
