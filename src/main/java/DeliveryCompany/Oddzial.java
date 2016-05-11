@@ -1,5 +1,9 @@
+package DeliveryCompany;
+
 
 import java.util.*;
+import Customer.Klient;
+import Customer.Odbiorca;
 
 public class Oddzial {
 	private List<Delivery> sortowniaList = new ArrayList<Delivery>();  // lista do wyslania do sortowni
@@ -11,9 +15,9 @@ public class Oddzial {
 		this.city = city;
 	}
 	
-	public void addDelivery(String type, String adres) {
+	public void addDelivery(String type, Odbiorca name) {
 		Delivery tmp;
-		if((tmp = packer1.getDelivery(type, adres)) !=null ) {
+		if((tmp = packer1.getDelivery(type, name.getCity(), name)) !=null ) {
 			sortowniaList.add(tmp);
 		}
 	}
@@ -24,8 +28,9 @@ public class Oddzial {
 	public void receiveFromSort(List<Delivery> delList) {
 		for(Delivery d: delList) {
 			odbiorcyList.add(d);
+			d.powiadamiaj(d.getClass().getSimpleName() + " jest juz w Twoim oddziale!");
 		}
-		wypisz();
+		//wypisz();
 	}
 	public void wypisz() {
 		System.out.println("ODDZIAL "+ city.adrMain);

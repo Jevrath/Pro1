@@ -1,3 +1,4 @@
+package DeliveryCompany;
 import java.util.*;
 
 // klasa zawierajace list miast obslugiwanch przez oddzial

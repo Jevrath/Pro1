@@ -1,6 +1,10 @@
 import java.util.*;
-public class Klasa1 {
 
+import Customer.Klient;
+import DeliveryCompany.Oddzial;
+import DeliveryCompany.Sortownia;
+public class Klasa1 {
+/*
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Sortownia sort1 = Sortownia.getSortownia();
@@ -22,5 +26,5 @@ public class Klasa1 {
 		sort1.wypisz();
 		sort1.sendToOddzialy();
 	}
-
+*/
 }

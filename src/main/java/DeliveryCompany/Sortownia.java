@@ -1,4 +1,9 @@
+package DeliveryCompany;
+
 import java.util.*;
+
+
+
 
 public class Sortownia {
 	static Sortownia sort = new Sortownia();
@@ -14,12 +19,18 @@ public class Sortownia {
 	public void receiveDelivery(List<Delivery> delList) {
 		for(Delivery del : delList) {
 			deliveryList.add(del);
+			del.powiadamiaj(del.getClass().getSimpleName() + " w sortowni");
 		}
 	}
 	public static Sortownia getSortownia(){
 		return sort;
 	}
 	public void sendToOddzialy() {
+		ArrayList<String> a = new ArrayList<String>(Arrays.asList("a","b","c"));
+		ListIterator<String> it = a.listIterator();
+		
+
+		
 		for(Oddzial od: oddzialList) {
 			
 			for(int i = 0; i < deliveryList.size(); i++) {
