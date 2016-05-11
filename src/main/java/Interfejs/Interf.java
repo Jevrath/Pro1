@@ -9,7 +9,6 @@ public class Interf {
 	/**
 	 * @param args
 	 */
-	
 	void wyslijPaczke(Oddzial oddzial){
 		String type,name,city;
 		System.out.println("Podaj typ paczki[Letter/Paczka]: ");
