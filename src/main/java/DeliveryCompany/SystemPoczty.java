@@ -17,7 +17,7 @@ public class SystemPoczty{
 					zakoncz();
 					try {
 						Thread.sleep(5 * 1000);
-						System.out.println("Watek!");
+						//System.out.println("Watek!");
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						System.out.println("exce!");

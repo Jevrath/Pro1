@@ -13,6 +13,12 @@ public class Sortownia{
 	static {
 		oddzialList.add(new Oddzial(new Miasto("kraków", "myœlenice", "wieliczka")));
 		oddzialList.add(new Oddzial(new Miasto("warszawa","radom","legionowo")));
+		oddzialList.add(new Oddzial(new Miasto("poznañ","gniezno","grodzisk wielkopolski")));
+		oddzialList.add(new Oddzial(new Miasto("rzeszów","przemyœl","krosno")));
+		oddzialList.add(new Oddzial(new Miasto("gdañsk","sopot","gdynia")));
+		oddzialList.add(new Oddzial(new Miasto("olsztyn","mr¹gowo","suwa³ki")));
+		oddzialList.add(new Oddzial(new Miasto("wroc³aw","legnica","wa³brzych")));
+		oddzialList.add(new Oddzial(new Miasto("katowice","sosnowiec","gliwice")));
 	}
 	private Sortownia() {
 	};

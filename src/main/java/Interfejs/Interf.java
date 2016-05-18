@@ -48,6 +48,26 @@ implements ItemListener, ActionListener{
 		city.add("Warszawa");
 		city.add("Radom");
 		city.add("Legionowo");
+		city.add("Poznañ");
+		city.add("Gniezno");
+		city.add("Grodzisk wielkopolski");
+		city.add("Rzeszów");
+		city.add("Przemyœl");
+		city.add("Krosno");
+		city.add("Gdañsk");
+		city.add("Sopot");
+		city.add("Gdynia");
+		city.add("Olsztyn");
+		city.add("Mr¹gowo");
+		city.add("Suwa³ki");
+		city.add("Wroc³aw");
+		city.add("Legnica");
+		city.add("Wa³brzych");
+		city.add("Katowice");
+		city.add("Sosnowiec");
+		city.add("Gliwice");
+		
+			
 		
 		add(name1);
 		add(name);
