@@ -12,7 +12,7 @@ class Komunikat extends Dialog implements ActionListener {
 	Komunikat(Frame parent, String tittle, String msg){
 		super(parent, tittle ,false);
 		this.setLayout(new FlowLayout());
-		setSize(250, 150);
+		setSize(300, 200);
 		str = new Label(msg);
 		ok = new Button("ok");
 		

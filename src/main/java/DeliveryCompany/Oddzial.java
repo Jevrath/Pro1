@@ -2,6 +2,7 @@ package DeliveryCompany;
 
 
 import java.util.*;
+
 import Customer.Klient;
 import Customer.Odbiorca;
 
@@ -29,7 +30,8 @@ public class Oddzial {
 	public void receiveFromSort(List<Delivery> delList) {
 		for(Delivery d: delList) {
 			odbiorcyList.add(d);
-			System.out.println(d.powiadamiaj(d.getClass().getSimpleName() + " jest juz w Twoim oddziale!"));
+			Komunikat.wyswietl(d.powiadamiaj(d.getClass().getSimpleName() + " jest juz w Twoim oddziale!"));
+			//System.out.println(d.powiadamiaj(d.getClass().getSimpleName() + " jest juz w Twoim oddziale!"));
 		}
 		//wypisz();
 	}
